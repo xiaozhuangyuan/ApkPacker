@@ -1,0 +1,29 @@
+{
+	"name": "xiaozhuangyuan/apkpacker",
+	"description": "PHP to create APK channel package.",
+	"license": "MIT",
+	"homepage": "https://github.com/xiaozhuangyuan/ApkPacker.git",
+	"keywords": [
+		"ApkPacker",
+		"APK channel package",
+		"PHP to create APK channel package",
+		"php"
+	],
+	"authors": [
+		{
+			"name": "Zhuang Yuan",
+			"email": "2802485121@qq.com",
+			"homepage": "https://github.com/xiaozhuangyuan/"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^4.8-stable",
+		"guzzle/guzzle": "~3.9"
+	},
+	"autoload": {
+		"psr-4": { "Xiaozhuangyuan\\ApkPacker\\": "src/" }
+	}
+}
